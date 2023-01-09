@@ -19,7 +19,7 @@ const ingredients = [
   // Создаём переменную, в которую вставляем найденый элемент (в нашем случае UL)
  const ingredientsMenu = document.querySelector("#ingredients");
 
-  // Через map делаем копию каталога (или массива, пока не понял :))
+  // Через map делаем копию каталога :))
  const menu = ingredients.map((list) => {
   // Добавляем !!!LI!!!
   const addLi = document.createElement("li");
